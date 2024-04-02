@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+html, body {
+    height: 100%;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Change font to Arial */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+}
+
+h3 {
+    font-size: 24px; /* Increase font size */
+    color: #333; /* Dark gray color */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #999; /* Dark gray border */
+    margin-top: 30px; /* Increase margin top */
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse; /* Collapse borders */
+    border: 2px solid #999; /* Dark gray border */
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    margin-top: 30px; /* Increase margin top */
+}
+
+thead td {
+    padding: 15px;
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-align: center; /* Center align text */
+}
+
+tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #999; /* Dark gray border */
+    text-align: center; /* Center align text */
+}
+
+tbody td:last-child {
+    border-right: none; /* Remove right border for last cell */
+}
+
+.edit,
+.delete {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.edit {
+    background-color: #4CAF50; /* Green background */
+}
+
+.delete {
+    background-color: #f44336; /* Red background */
+}
+
+p {
+    margin: 20px 0;
+    text-align: center; /* Center align text */
+}
+
+.add-btn {
+    text-decoration: none;
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    border-radius: 5px;
+    font-size: 18px; /* Decrease font size */
+    padding: 10px 20px;
+    margin-top: auto; /* Push button to the bottom */
+    align-self: flex-end; /* Align button to the right */
+}
+
+.form-group {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.form-group label,
+.form-group input {
+    display: block;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    width: 120px; /* Increase button width */
+    height: 40px; /* Increase button height */
+    border-radius: 5px;
+    color: #fff; /* White text */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Add margin top */
+}
+
+.alert {
+    display: block;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background */
+    border-radius: 5px;
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px; /* Increase margin top */
+    align-self: center; /* Center horizontally */
+}
